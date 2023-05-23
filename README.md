@@ -5,28 +5,36 @@ CRUD using React for the client and node.js for the server
 and mysql for the database
 
 Reference youtube.com
+
 https://www.youtube.com/watch?v=T8mqZZ0r-RA
+
 https://www.youtube.com/watch?v=3YrOOia3-mo
 
 The above videos may be used as a guide. One can use this repository or
 follow the directions below to create the Full Stack Application.
 Some knowledge of React is suggested and also a bit of mysql.
 
-Directions 
+Directions  <p>
 
-Create directory crud
+Create directory crud <br>
 inside crud, the directories server and client
 
 create crud
+  
 create crud/server
+  
 create crud/client
 
 Create a React initial application 
+  
 ( cd into the client directory and issue the command )
+  
 npx create-react-app . 
 
 In the client directory, install axios and cors
+  
 npm install axios
+  
 npm install cors
 
 
@@ -48,7 +56,12 @@ Substitue the repository App.js into your App.js
 
 
 
+to start React, 
+from the client directory :  npx create-react-app
 
+from the server directory: npm run devStart
+                                       
+(look at package.json , npm run devSart is equivalent to nodemon index.js)
 
 
 
