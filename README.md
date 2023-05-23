@@ -19,7 +19,7 @@ Directions  <p>
 Create directory crud <br>
 inside crud, create the directories server and client 
 
-create crud. 
+create crud.  
 create crud/server   
 create crud/client 
 
