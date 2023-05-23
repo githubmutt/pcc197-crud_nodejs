@@ -17,51 +17,50 @@ Some knowledge of React is suggested and also a bit of mysql.
 Directions  <p>
 
 Create directory crud <br>
-inside crud, the directories server and client
+inside crud, create the directories server and client 
 
-create crud
-  
-create crud/server
-  
-create crud/client
+create crud. 
+create crud/server 
 
-Create a React initial application 
+  
+create crud/client 
+
+Create a React initial application   
   
 ( cd into the client directory and issue the command )
   
-npx create-react-app . 
+npx create-react-app .  
 
-In the client directory, install axios and cors
+In the client directory, install axios and cors 
   
-npm install axios
-  
+npm install axios  
 npm install cors
 
 
-in the server directory, issue the command commands to install dependencies
-npm init (answer yes to all questions)
-npm install express
-npm instaal body-parser
-npm install nodemon
+in the server directory, issue the command commands to install dependencies 
+npm init (answer yes to all questions) 
+npm install express 
+npm instaal body-parser 
+npm install nodemon  
 npm install mysql
 
-Create the database crud and member table
-mysql -uroot -ppassword           (your root password )
-source crud.sql 
-(note the repository crud.sql file)
-OR
-mysql -uroot -ppassword crud < crud.sql
+Create the database crud and member table   
+mysql -uroot -ppassword           (your root password ) 
+source crud.sql   
+(note the repository crud.sql file).   
+OR. 
+mysql -uroot -ppassword crud < crud.sql. 
 
-Substitue the repository App.js into your App.js
+Substitue the repository App.js into your App.js  
 
 
 
-to start React, 
-from the client directory :  npx create-react-app
+to start React,   
+from the client directory :  npm start 
 
-from the server directory: npm run devStart
+from the server directory: npm run devStart. 
                                        
-(look at package.json , npm run devSart is equivalent to nodemon index.js)
+(look at package.json , npm run devSart is equivalent to nodemon index.js). 
 
 
 
