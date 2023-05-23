@@ -20,9 +20,7 @@ Create directory crud <br>
 inside crud, create the directories server and client 
 
 create crud. 
-create crud/server 
-
-  
+create crud/server   
 create crud/client 
 
 Create a React initial application   
@@ -40,17 +38,20 @@ npm install cors
 in the server directory, issue the command commands to install dependencies 
 npm init (answer yes to all questions) 
 npm install express 
-npm instaal body-parser 
+npm install body-parser 
 npm install nodemon  
 npm install mysql
 
 Create the database crud and member table   
 mysql -uroot -ppassword           (your root password ) 
+create database crud
+use crud
 source crud.sql   
 (note the repository crud.sql file).   
 OR. 
 mysql -uroot -ppassword crud < crud.sql. 
-
+(this assumes database crud exists). 
+                                        
 Substitue the repository App.js into your App.js  
 
 
