@@ -35,10 +35,10 @@ npm install axios
 npm install cors
 
 
-in the server directory, issue the command commands to install dependencies 
+in the server directory, issue these commands to install dependencies      
 npm init (answer yes to all questions) 
 npm install express 
-npm install body-parser 
+npm install body-parser   
 npm install nodemon  
 npm install mysql
 
