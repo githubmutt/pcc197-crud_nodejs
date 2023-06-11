@@ -25,7 +25,7 @@ create crud/client
 
 Create a React initial application   
   
-( cd into the client directory and issue the command )
+( cd into the client directory and create the React client )
   
 npx create-react-app .  
 
@@ -52,9 +52,7 @@ OR.
 mysql -uroot -ppassword crud < crud.sql. 
 (this assumes database crud exists). 
                                         
-Substitue the repository App.js into your App.js  
-
-
+Substitute the repository App.js into your App.js  
 
 to start React,   
 from the client directory :  npm start 
@@ -62,6 +60,9 @@ from the client directory :  npm start
 from the server directory: npm run devStart. 
                                        
 (look at package.json , npm run devSart is equivalent to nodemon index.js). 
+modify the scripts section in package.json
+    "devStart": "nodemon index.js",
+
 
 
 
